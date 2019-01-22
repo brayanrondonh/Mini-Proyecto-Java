@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #38577c;
+}
+
+#presentacion
+{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+    background: #c7d9ef;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+#presentacion h1
+{
+    text-align: center;
+    color: white;
+}
+
+#presentacion a
+{
+    color:#6f9abc;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#presentacion a:hover
+{
+    color:#eaf1f7;
+}
+
+#presentacion a:active
+{
+    color:#6f9abc;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#presentacion #login
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bolder;
+}
+
+#presentacion #login .input
+{
+    border: none;
+    border-bottom: 1px #a6c4e0 solid;
+    height: 1.3em;
+    margin: 35px 0 35px 0;
+}
+
+#presentacion #login #botones
+{
+    margin-top: 35px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#presentacion #login #botones input
+{
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#presentacion #listado
+{
+    width: 80%;
+    height: 80%;
+}
+
+#presentacion #listado h1
+{
+    margin-top: 15px;
+}
+
+#presentacion #listado #tabla
+{
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+    background: white;
+    text-align: center;
+}
+
+#presentacion #listado #tabla th
+{
+    color: #38577c;
+    padding: 7px 15px 7px 15px;
+    border-bottom: 1px solid #38577c;
+}
+
+#presentacion #listado #tabla th:nth-of-type(1)
+{
+    border: none;
+}
+
+#presentacion #listado #tabla td
+{
+    padding: 7px 0 7px 0;
+    font-size: 1.1em;
+}
+
+#presentacion #listado #botonesListado
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+#presentacion #listado #botonesListado input,
+#presentacion #listado #botonesListado a
+{
+    border: none;
+    color: #6f9abc;
+    padding: 5px;
+    font-size: 1.1em;
+    background: none;
+    text-transform: uppercase; 
+}
+
+#presentacion #listado #botonesListado input:hover,
+#presentacion #listado #botonesListado a:hover
+{
+    background: white;
+    color: #38577c;
+    cursor: pointer;
+}
+
